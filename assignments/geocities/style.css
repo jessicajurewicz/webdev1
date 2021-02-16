@@ -1,0 +1,19 @@
+h1  {
+    color:blueviolet;
+}
+
+
+
+.fun-text {
+    background: lightblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.em {
+    color: rgb(142, 142, 235);
+    background: lightcyan;
+    font-size: 2em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+

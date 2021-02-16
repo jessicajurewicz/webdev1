@@ -1,0 +1,21 @@
+.top-section {
+    background: rgb(255, 186, 234);
+}
+
+
+h1 {
+    color:#ff0000;
+}
+
+.regular-text {
+    font-size: 30px;
+}
+
+.cool-text {
+    color:magenta;
+    font-family: arial;
+}
+
+#page-subtitle {
+    color: brown;
+}
