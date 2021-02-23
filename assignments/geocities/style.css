@@ -1,19 +1,117 @@
-h1  {
-    color:blueviolet;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(180deg, rgb(2, 2, 124), rgb(15, 99, 255), rgb(75, 137, 187), green, rgb(1, 34, 1));
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 5vmin solid rgb(82, 28, 12);
+}
+
+.twirling-plant {
+    position: absolute;
+    scale: 0.9;
+    top: 9.6vmin;
+    left: 4vmin;
+   
+}
+
+.floating-plant {
+    position: absolute;
+    scale: 0.7;
+    top: 3.7vmin;
+    left: 163vmin;
+}
+
+.pixel-plant {
+    position: absolute;
+    scale: 0.3;
+    top: 0.7vmin;
+    left: 16vmin;
+}
+
+.springy-plant {
+    position: absolute;
+    scale: 0.4;
+    top: 0.7vmin;
+    left: 30vmin;
+}
+
+.windy-plant {
+    position: absolute;
+    scale: 0.4;
+    top: 4.7vmin;
+    left: 146vmin;
+}
+
+.pretty-plant {
+    position: absolute;
+    scale: 0.5;
+    top: 3.5vmin;
+    left: 130vmin;
+}
+
+.smiling-plant {
+    position: absolute;
+    scale: 0.4;
+    top: 10.4vmin;
+    left: 115vmin;
+}
+
+.heart-plant {
+    position: absolute;
+    scale: 0.25;
+    top: 8.8vmin;
+    left:46vmin;
+}
+
+.bird {
+    position: absolute;
+    scale: 0.3;
+    top: 13vmin;
+    left: 83vmin;
+}
+
+.white-bird {
+    position: absolute;
+    scale: 0.3;
+    top: 15vmin;
+    left: 72vmin;
+}
+
+h1:hover {
+    transform: scale(1.2);
+}
+
+.wood {
+    background: repeating-linear-gradient(rgb(82, 28, 12) 30%, rgb(218, 132, 52) 50%);
+    position: relative;
+    color: rgb(0, 201, 0);
+    font-size: 10vmin;
+    text-align: center;
+    margin-top: 20vmin;
+    padding: 5vmin;
+   
+}
+
+h2 {
+    text-align: center;
+    position: relative;
+    font-size: 3vmin;
+    color: rgb(44, 16, 7);
 }
 
 
-
-.fun-text {
-    background: lightblue;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+.background {
+    opacity: 0.2;
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    
 }
 
-.em {
-    color: rgb(142, 142, 235);
-    background: lightcyan;
-    font-size: 2em;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+
 
