@@ -1,0 +1,34 @@
+header {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.main-title {
+    font-size: 10vmin;
+    color: white;
+}
+
+main {
+    background: rgba(255, 0, 0, 0.295);
+}
+
+main p {
+    font-size: 3rem;
+    color: white;
+    margin: 2em 0;
+    background: rgba(0, 0, 0, 0.315);
+    max-width: 800px;
+    margin: auto;
+}
+
+.bg-video {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    object-fit: cover;
+    position: fixed;
+}

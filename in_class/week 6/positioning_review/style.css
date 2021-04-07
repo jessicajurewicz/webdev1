@@ -1,0 +1,49 @@
+body {
+    font-family: arial;
+}
+
+
+.box {
+    Width: 10vmin;
+    height: 10vmin;
+    background: lightgray;
+    margin: 1em;
+}
+
+.static {
+    background: crimson;
+}
+
+.absolute {
+    background: orangered;
+    position: absolute;
+    width: unset;
+    height: unset;
+    left: 250px;
+    right: 150px;
+    top: 500px;
+    bottom: 100px;
+}
+
+.fixed {
+    background: yellow;
+    position: fixed;
+    right: 300px;
+    bottom: 80px;
+    z-index: 1;
+}
+
+.relative {
+    background: seagreen;
+    position: relative;
+    left: 40vmin;
+    top: 30vmin;
+  }
+  
+  .child {
+    background: cornflowerblue;
+    width: 50%;
+    height: 50%;
+  }
+  
+  

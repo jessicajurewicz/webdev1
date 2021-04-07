@@ -1,117 +1,122 @@
 * {
-    margin: 0;
+    margin: auto 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
     background: linear-gradient(180deg, rgb(2, 2, 124), rgb(15, 99, 255), rgb(75, 137, 187), green, rgb(1, 34, 1));
+    
+    min-height: 100vh;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    border: 5vmin solid rgb(82, 28, 12);
 }
 
-.twirling-plant {
-    position: absolute;
-    scale: 0.9;
-    top: 9.6vmin;
-    left: 4vmin;
-   
+.background {
+    opacity: 0.2;
+    display: block;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    /* width: 210vmin;
+    height: 100vmin; */
 }
 
-.floating-plant {
-    position: absolute;
-    scale: 0.7;
-    top: 3.7vmin;
-    left: 163vmin;
+.wood {
+    position: relative;
+    margin-top: 30vmin;
 }
 
-.pixel-plant {
-    position: absolute;
-    scale: 0.3;
-    top: 0.7vmin;
-    left: 16vmin;
+.titles {
+    background: repeating-linear-gradient(rgb(82, 28, 12) 30%, rgb(218, 132, 52) 50%);
+    padding: 5vmin;
+    text-align: center;
 }
 
-.springy-plant {
-    position: absolute;
-    scale: 0.4;
-    top: 0.7vmin;
-    left: 30vmin;
+.titles h1 {
+    color: rgb(1, 185, 1);
+    font-size: 8vmin;
 }
 
-.windy-plant {
-    position: absolute;
-    scale: 0.4;
-    top: 4.7vmin;
-    left: 146vmin;
-}
-
-.pretty-plant {
-    position: absolute;
-    scale: 0.5;
-    top: 3.5vmin;
-    left: 130vmin;
-}
-
-.smiling-plant {
-    position: absolute;
-    scale: 0.4;
-    top: 10.4vmin;
-    left: 115vmin;
-}
-
-.heart-plant {
-    position: absolute;
-    scale: 0.25;
-    top: 8.8vmin;
-    left:46vmin;
-}
-
-.bird {
-    position: absolute;
-    scale: 0.3;
-    top: 13vmin;
-    left: 83vmin;
-}
-
-.white-bird {
-    position: absolute;
-    scale: 0.3;
-    top: 15vmin;
-    left: 72vmin;
+.titles h2 {
+    font-size: 2vmin;
+    color: rgb(44, 16, 7);
 }
 
 h1:hover {
     transform: scale(1.2);
 }
 
-.wood {
-    background: repeating-linear-gradient(rgb(82, 28, 12) 30%, rgb(218, 132, 52) 50%);
-    position: relative;
-    color: rgb(0, 201, 0);
-    font-size: 10vmin;
-    text-align: center;
-    margin-top: 20vmin;
-    padding: 5vmin;
-   
-}
-
-h2 {
-    text-align: center;
-    position: relative;
-    font-size: 3vmin;
-    color: rgb(44, 16, 7);
-}
-
-
-.background {
-    opacity: 0.2;
-    display: block;
-    margin: auto;
+.plants {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin: 0;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
     width: 100%;
-    height: 100%;
-    
+    /* width: 100px;
+    height: 100px; */
+    /* background: rgba(255, 0, 0, 0.5); */
 }
+
+.plants img {
+    width: 10vmin;
+}
+
+.twirling-plant {
+    margin-bottom: -.125em;  
+}
+
+.floating-plant {
+    margin-bottom: -.5em;
+}
+
+.pixel-plant {
+    margin-bottom: -.5em;
+}
+
+.springy-plant {
+    margin-bottom: -.5em;
+}
+
+.bird {
+    margin-bottom: -.5em;
+}
+
+.white-bird {
+    margin-bottom: -.5em;
+}
+
+.windy-plant {
+    margin-bottom: -.5em;
+}
+
+.pretty-plant {
+    margin-bottom: -.5em;
+}
+
+.smiling-plant {
+    margin-bottom: -.5em;
+}
+
+#heart-plant {
+    width: 7vmin;
+    margin-bottom: -.5em;
+}
+
+.center-plant {
+    margin: 0 auto;
+    margin-top: 5em;
+    display: block;
+    width: 30vmin;
+}
+
+
 
 
 
