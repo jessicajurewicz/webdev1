@@ -1,0 +1,50 @@
+body {
+    background: pink;
+    margin: 0;
+    font-family:fantasy
+}
+
+header {
+    background:lightgreen;
+    padding: .7em;
+    padding-left: 0em;
+    padding-right: 0em;
+}
+
+h1 {
+    background:rgb(238, 119, 232);
+    text-align:center;
+    padding: 0.5em;
+    margin: 0;
+}
+
+h2 {
+    background:rgb(241, 108, 67);
+    text-align: center;
+    padding: 0.4em;
+    margin: 0;
+}
+
+.sections {
+    background: rgb(243, 238, 167);
+    font-size: 1.5em;
+    margin: 1em;
+    margin-bottom: 0em;
+    padding: 0.5em;
+}
+
+.text {
+    background: lightblue;
+    font-size: 1.5em;
+    margin: 1em;
+    margin-top: 0;
+    padding: 0.5em;
+}
+
+h6 {
+    background: rgb(163, 163, 163);
+    padding: 0.5em;
+    margin-bottom: 8em;
+    font-size: 1em;
+    text-align: center;
+}

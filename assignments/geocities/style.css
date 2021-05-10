@@ -21,6 +21,7 @@ body {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
+    z-index: -1;
     /* width: 210vmin;
     height: 100vmin; */
 }

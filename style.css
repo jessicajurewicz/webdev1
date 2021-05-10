@@ -1,0 +1,26 @@
+body {
+    font-family: 'Itim', cursive;
+    background-color: rgb(178, 140, 204);
+    color: crimson;
+}
+
+a {
+    color: orange;
+    margin: 1rem;
+    text-decoration: none;
+    font-size: 5vmin;
+}
+ a:visited {
+     color: teal;
+ }
+
+ a:hover {
+     color: white;
+ }
+/* hello */
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
