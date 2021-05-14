@@ -43,11 +43,9 @@ nav {
     align-items: center;
 }
 
-footer {
+.gif {
     position: relative;
     left: 0;
     bottom: 0;
     top: 20vmin;
-    width: 100%;
-    text-align: left;
 }
