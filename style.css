@@ -1,11 +1,29 @@
 body {
-    font-family: 'Itim', cursive;
-    background-color: rgb(178, 140, 204);
-    color: crimson;
+    font-family: 'Shadows Into Light', cursive;
+    color: rgba(159, 150, 245, 0.815);
+}
+
+h1 {
+    text-align: center;
+    font-size: 8vmin;
+    text-shadow: 2px 2px #010b35;
+}
+
+.background {
+    display: block;
+    opacity: 0.6;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
 }
 
 a {
-    color: orange;
+    color: rgb(230, 103, 65);
     margin: 1rem;
     text-decoration: none;
     font-size: 5vmin;
@@ -22,5 +40,13 @@ a {
 nav {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }

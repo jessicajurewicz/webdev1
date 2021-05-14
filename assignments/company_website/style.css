@@ -1,0 +1,36 @@
+body {
+    background-color: rgba(176, 224, 230, 0.253);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(247, 74, 103);
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1rem;
+    font-style: italic;
+    color: rgb(238, 177, 187)
+
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+section {
+    text-align: center;
+    padding: 1rem;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    height: 20rem;
+}
