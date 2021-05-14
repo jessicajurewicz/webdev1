@@ -1,0 +1,41 @@
+* { margin: 0; padding: 0; }
+
+body {
+    font-family: 'Girassol', cursive;
+    background: black;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+    margin: 0;
+    padding-top: 4vmin;
+}
+
+h2 {
+    color: gray;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 4rem;
+    grid-gap: 4rem;
+    justify-items: center;
+    align-items: center;
+    height: 8vh;
+
+}
+
+.item {
+    font-size: 3rem;
+    border: 3px solid white;
+    width: 100%;
+}
+
+a {
+    padding-left: 1rem;
+}
