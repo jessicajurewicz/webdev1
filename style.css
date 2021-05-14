@@ -47,6 +47,7 @@ footer {
     position: relative;
     left: 0;
     bottom: 0;
+    top: 20vmin;
     width: 100%;
-    text-align: center;
+    text-align: left;
 }
