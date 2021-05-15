@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    background: black;
+}
+
+.iphone-container {
+    background: darkolivegreen;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    padding-bottom: 1rem;
+    border-radius: 4vmin;
+}
+
+.row {
+    display: flex;
+}
+
+.app {
+    color: rgb(202, 240, 137);
+    text-decoration: none;
+    font-size: 8vmin;
+    background: black;
+    border-radius: 1vmin;
+    width: 12vmin;
+    height: 12vmin;
+    margin: 0.5vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a:hover {
+    background: rgb(255, 0, 0);
+}
+
+.b:hover {
+    background: rgb(255, 102, 0);
+}
+
+.c:hover {
+    background: rgb(251, 255, 0);
+}
+
+.d:hover {
+    background: rgb(0, 255, 34);
+}
+
+.e:hover {
+    background: rgb(0, 38, 255);
+}
+
+.f:hover {
+    background: rgb(153, 0, 255);
+}
+
+.g:hover {
+    background: rgb(255, 0, 242);
+}
+
+.h:hover {
+    background: rgb(78, 77, 77);
+}
+
+i:hover {
+    background: rgb(255, 0, 0);
+}
+
+.j:hover {
+    background: rgb(255, 102, 0);
+}
+
+.k:hover {
+    background: rgb(251, 255, 0);
+}
+
+.l:hover {
+    background: rgb(0, 255, 34);
+}
+
+.m:hover {
+    background: rgb(0, 38, 255);
+}
+
+.n:hover {
+    background: rgb(153, 0, 255);
+}
+
+.o:hover {
+    background: rgb(255, 0, 242);
+}
+
+.p:hover {
+    background: rgb(255, 255, 255);
+}
+
+.q:hover {
+    background: rgb(255, 0, 0);
+}
+
+.r:hover {
+    background: rgb(255, 102, 0);
+}
+
+.s:hover {
+    background: rgb(251, 255, 0);
+}
+
+.t:hover {
+    background: rgb(0, 255, 34);
+}
+
+.u:hover {
+    background: rgb(0, 38, 255);
+}
+
+.v:hover {
+    background: rgb(153, 0, 255);
+}
+
+.w:hover {
+    background: rgb(255, 0, 242);
+}
+
+.x:hover {
+    background: rgb(255, 255, 255);
+}
+
+.y:hover {
+    background: rgb(255, 0, 0);
+}
+
+.z:hover {
+    background: rgb(255, 102, 0);
+}
+
+.ab:hover {
+    background: rgb(251, 255, 0);
+}
+
+.ac:hover {
+    background: rgb(0, 255, 34);
+}
+
+.spacea {
+    background: darkolivegreen;
+    color:darkolivegreen;
+}
+
+.button {
+    width: 25vmin;
+    height: 20vmin;
+    margin: 0.5vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover {
+    scale: -0.9;
+}
+
+img {
+    width: 50%;
+}
